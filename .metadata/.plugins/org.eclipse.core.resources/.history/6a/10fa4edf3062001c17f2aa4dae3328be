@@ -1,9 +1,0 @@
-package thread_method;
-
-public class Snippet {
-	public static void main(String[] args) {
-		run.run();
-		
-	}
-}
-

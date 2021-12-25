@@ -1,5 +1,0 @@
-package interfacePolymorphism.domain.userInfo.dao.mysql;
-
-public class UserInfoMySqlDao {
-
-}

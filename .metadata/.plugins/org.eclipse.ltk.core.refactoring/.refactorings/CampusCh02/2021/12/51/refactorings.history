@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;array.Room&apos; to &apos;Book&apos;&#x0D;&#x0A;- Original project: &apos;FastCampus&apos;&#x0D;&#x0A;- Original element: &apos;array.Room&apos;&#x0D;&#x0A;- Renamed element: &apos;array.Book&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Room&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;array{Room.java[Room" matchStrategy="1" name="Book" qualified="false" references="true" similarDeclarations="false" stamp="1639328123875" textual="false" version="1.0"/>
-</session>

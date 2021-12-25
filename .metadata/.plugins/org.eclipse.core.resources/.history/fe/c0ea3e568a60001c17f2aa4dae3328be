@@ -1,5 +1,0 @@
-package customerException;
-
-public class PassWordException {
-
-}

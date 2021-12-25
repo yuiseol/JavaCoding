@@ -1,7 +1,0 @@
-package polymorphism;
-
-import overriding.Customer;
-
-public class GoldCustomer extends Customer {
-
-}

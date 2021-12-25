@@ -1,5 +1,0 @@
-package genericExtends;
-
-public class Material { //하위클래스들은 이 클래스를 상속받아서 쓰고 직접 쓸 일은 없으니까 abstract
-
-}

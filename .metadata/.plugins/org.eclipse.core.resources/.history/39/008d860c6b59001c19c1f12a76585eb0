@@ -1,7 +1,0 @@
-package constructor;
-
-public class ProfileTest {
-	Profile profile = new Profile();
-	
-	profile.ProfileInfo(180, 78, "남성", "Tomas", 37);
-}

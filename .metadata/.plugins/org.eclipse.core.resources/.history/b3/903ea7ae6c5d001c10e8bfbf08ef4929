@@ -1,5 +1,0 @@
-package interfacePolymorphism.domain.userInfo.dao;
-
-public interface UserInfoDao {
-
-}
