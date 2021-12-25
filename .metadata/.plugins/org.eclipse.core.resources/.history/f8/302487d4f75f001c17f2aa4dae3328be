@@ -1,0 +1,40 @@
+package innerClass;
+
+class OutClass{
+	
+	private int num= 10;
+	private static int sNum = 20;
+	private InClass inClass;
+	
+	public OutClass(){
+		inClass = new InClass(); // 내부 클래스 생성
+	}
+
+	private class InClass{
+		
+		int iNum = 100;
+		
+//		static int sInNum = 500; //에러이유 : 인스턴스 이너클래스는 아웃클래스가 먼저 생성이 되고 나서 생성이 됨, 정적변수 사용할 수가 없다.사용할려고 정적내부클래스에서 사용해야 된다.
+		
+		void inTest() {
+			
+			System.out.println("OutClass num = " +num + "(외부 클래스의 인스턴스 변수)");
+			System.out.println("OutClass sNum = " + sNum + "(외부 클래스의 스태틱 변수)");
+			System.out.println("InClass inNum = " + iNum + "(내부 클래스의 인스턴스 변수)");
+
+		}
+	}
+	
+	public void usingClass() {
+		inClass.inTest();
+	}
+}
+
+public class InnerTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

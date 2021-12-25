@@ -1,0 +1,38 @@
+package dataStructure03;
+
+import dataStructure01.MyLinkedList;
+import dataStructure01.MyListNode;
+
+interface Queue{
+	public void enQueue(String data);
+	public String deQueue();
+	public void printQueue();
+}
+
+public class MyLinkedQueue extends MyLinkedList implements Queue {
+	
+	MyListNode front;
+	MyListNode rear;
+
+	@Override
+	public void enQueue(String data) {
+		
+		MyListNode newNode;
+		if(isEmpty()) {
+			addElement(data);
+		}
+	}
+
+	@Override
+	public String deQueue() {
+		
+		
+	}
+
+	@Override
+	public void printQueue() {
+	
+		
+	}
+
+}

@@ -1,0 +1,36 @@
+package Kakao;
+
+import java.util.ArrayList;
+
+class Solution3 {
+    public static void main(String[] args) {
+    	
+    	int[] stages = {1,2,3,3,4,5,5,5,1,6};
+    	int N = 5;
+    	ArrayList<Integer> list = new ArrayList<>();
+    	for(int j=1; j<=N; j++) {
+    		int sum=0;
+    		for(int i=0; i<=stages.length; i++) {
+    			if(stages[i] == j) {
+    				sum++;
+    			}
+    		}
+			if(list.isEmpty()) {
+				list.add(j);
+			}else if(list.get(0)>sum/stages.length) {
+				list.add(j);
+			}else
+    			list.add(0, j);
+    		}
+    	}
+    	
+    	int[] result = new int[list.size()];
+    	int idx = 0 ;
+    	for(int n : list) {
+    		result[idx] = n;
+    		idx++;
+    	}
+    	System.out.println(result);
+    }
+}
+

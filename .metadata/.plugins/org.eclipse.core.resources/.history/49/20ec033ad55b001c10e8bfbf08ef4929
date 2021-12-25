@@ -1,0 +1,14 @@
+package inheritance;
+
+public class Customer {
+	
+	private int customerId;
+	private String customerName;
+	private String customerCrade;
+	int bonusPoint;
+	double bonusRatio;
+	
+	public Customer() {
+		
+	}
+}

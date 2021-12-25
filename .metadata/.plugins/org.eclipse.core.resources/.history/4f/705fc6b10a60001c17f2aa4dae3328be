@@ -1,0 +1,5 @@
+package oopVsLamda;
+
+public class StringConcatImpl {
+
+}

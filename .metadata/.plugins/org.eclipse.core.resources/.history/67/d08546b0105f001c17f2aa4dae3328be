@@ -1,0 +1,8 @@
+package MapInterface;
+
+public class Snippet {
+	public static void main(String[] args) {
+		set.add("Park");
+	}
+}
+

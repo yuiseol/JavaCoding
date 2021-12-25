@@ -1,0 +1,30 @@
+package object_equals;
+
+public class EqualsTest {
+
+	public static void main(String[] args) {
+		
+		Student std1 = new Student(100, "Lee");
+		Student std2 = new Student(100, "Lee");
+		Student std3 = std1;
+		
+		System.out.println(std1 == std2); //false
+		System.out.println(std1.equals(std2)); //true
+		System.out.println(std1 = std3); //true
+		
+		System.out.println(std1.hashCode());
+		System.out.println(std2.hashCode()); //두개의 메모리가 다르기 때문에 전혀 다른값, 그렇지만 해시코드를 찍었을 땐 같은 값이 나와야된다.
+		
+		String str1 = new String("abc");
+		String str2 = new String("abc");
+		
+		System.out.println(str1.equals(str2)); //true
+		
+		System.out.println(str1.hashCode());
+		System.out.println(str2.hashCode());
+		
+		Integer i =100;
+		System.out.println(i.hashCode()); //해시코드가 정수값이 나옴
+	}
+
+}

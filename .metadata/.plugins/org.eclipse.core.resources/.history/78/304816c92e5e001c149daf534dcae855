@@ -1,0 +1,14 @@
+package classclass;
+
+public class CalssTest {
+
+	public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException {
+		
+		Class c1 = Class.forName("classclass.Person");
+		
+		Person person = (Person)c1.newInstance();
+		person.setName("Lee");
+		System.out.println(person);
+	}
+
+}

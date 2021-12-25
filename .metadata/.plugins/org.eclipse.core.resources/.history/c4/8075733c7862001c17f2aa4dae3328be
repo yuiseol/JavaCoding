@@ -1,0 +1,14 @@
+package semiProject;
+
+import java.util.ArrayList;
+
+public class Subject {
+	
+	private int studentId;
+	private String studentName;
+	private Subject majorSubject;
+	ArrayList<Integer> scoreList = new ArrayList<>();
+	
+	
+
+}

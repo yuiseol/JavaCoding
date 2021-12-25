@@ -1,0 +1,11 @@
+package dataStructure03;
+
+interface Queue{
+	public void enQueue(String data);
+	public String deQueue();
+	public void printAll();
+}
+
+public class MyLinkedQueue {
+
+}

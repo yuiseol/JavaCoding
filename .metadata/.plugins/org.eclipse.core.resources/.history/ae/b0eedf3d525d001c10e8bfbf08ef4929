@@ -1,0 +1,13 @@
+package abstractEx;
+
+public class NoteBook extends Computer{
+
+	@Override
+	public void display() {
+		System.out.println("NotBook display");
+		
+	}
+
+	
+	
+}

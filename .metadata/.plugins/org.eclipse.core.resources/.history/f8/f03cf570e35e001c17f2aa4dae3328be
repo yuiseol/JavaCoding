@@ -1,0 +1,23 @@
+package dataStructure02;
+
+import dataStructure.MyArray;
+
+public class MyArrayStack {
+	
+	MyArray arrayStack; //멤버변수 자동으로 이니셜라이저된다(초기화), 객체인경우 null
+	int top;
+	
+	public MyArrayStack() {
+		top = 0;
+		arrayStack = new MyArray();
+	}
+	
+	public MyArrayStack(int size) {
+		top = 0;
+		arrayStack = new MyStack(size);
+	}
+	
+	public void push 
+	
+
+}

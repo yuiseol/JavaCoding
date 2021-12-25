@@ -1,0 +1,10 @@
+package semiProject;
+
+public class Subject {
+	
+	int studentId;
+	String studentName;
+	Subject major;
+	ArrayList<int> scoreList = new ArrayList<>();
+
+}

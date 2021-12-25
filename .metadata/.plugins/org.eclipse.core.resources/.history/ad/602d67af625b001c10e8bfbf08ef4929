@@ -1,0 +1,26 @@
+package Singleton;
+
+public class CarFactory {
+	public int CarNum;
+	
+	private static CarFactory instance = new CarFactory();
+	
+	private static int serialNum;
+	
+	private CarFactory() {
+		
+	}
+	
+	public void getCarNum() {
+		serialNum++;
+		CarNum = serialNum;
+	}
+	
+	public static CarFactory getInstance() {
+		if(instance == null) {
+			instance = new CarFactory();
+		}
+		return instance;
+	}
+	
+}

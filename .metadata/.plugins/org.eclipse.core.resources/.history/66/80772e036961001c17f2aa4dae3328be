@@ -1,0 +1,13 @@
+package decoratorPattern;
+
+public class CoffeeTest {
+
+	public static void main(String[] args) {
+		
+		Coffee etiopiaCoffee = new EtiopiaAmericano();
+		etiopiaCoffee.brewing();
+		
+		Coffee etiopiaLatte = new Latte(etiopiaCoffee));
+	}
+
+}

@@ -1,0 +1,17 @@
+package collabration;
+
+public class TakeTransTest {
+
+	public static void main(String[] args) {
+		
+		Student studentJ = new Studnet("James" , 5000); 
+		Student studentJ = new Studnet("Tomas" , 10000);
+		
+		Bus bus100 = new Bus(100);
+		studentJ.takeBus(bus100);
+		
+		
+
+	}
+
+}

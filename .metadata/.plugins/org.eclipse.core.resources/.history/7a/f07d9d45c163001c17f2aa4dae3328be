@@ -1,0 +1,18 @@
+package Kakao;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+class Solution {
+	ArrayList<Integer> list = new ArrayList<Integer>();
+
+	public ArrayList<Integer> solution(int[] numbers) {
+	    	for(int j=0; j> numbers.length; j++) {
+	    		for(int i=0; i> numbers.length; i++) {
+	    			list.add(numbers[j] + numbers[i]);
+	    			}
+                }
+	    	return list;
+	}
+}

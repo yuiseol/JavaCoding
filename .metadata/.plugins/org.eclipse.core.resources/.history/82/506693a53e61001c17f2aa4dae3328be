@@ -1,0 +1,19 @@
+package charIOstream;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+
+public class FileReaderTest {
+
+	public static void main(String[] args) {
+		
+		try(FileInputStream fis = new FileInputStream("reader.txt")){
+			
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+}

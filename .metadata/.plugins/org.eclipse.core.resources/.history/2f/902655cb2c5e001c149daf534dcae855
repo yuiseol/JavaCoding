@@ -1,0 +1,10 @@
+package classclass;
+
+public class StringTestf {
+
+	public static void main(String[] args) throws ClassNotFoundException {
+		
+		Class c = Class.forName("java.lang.String");
+	}
+
+}

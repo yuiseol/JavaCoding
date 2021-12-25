@@ -1,0 +1,5 @@
+package ch15_interface;
+
+public interface Sell {
+
+}

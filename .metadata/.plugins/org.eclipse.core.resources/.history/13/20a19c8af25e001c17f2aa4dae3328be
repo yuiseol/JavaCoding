@@ -1,0 +1,18 @@
+package generic;
+
+public class ThreeDPrinterTwo {
+
+	private Plastic material;
+
+	public Powder getMaterial() {
+		return material;
+	}
+
+	public void setMaterial(Powder material) {
+		this.material = material;
+	}
+
+	public String toString() {
+		return "재료는 Plastic 입니다";
+	}
+}

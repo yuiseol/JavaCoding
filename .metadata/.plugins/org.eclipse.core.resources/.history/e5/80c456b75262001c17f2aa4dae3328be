@@ -1,0 +1,25 @@
+package notify_wait;
+
+import java.util.ArrayList;
+
+class JavaLibrary{
+	
+	public ArrayList<String> shelf = new ArrayList();
+	
+	public JavaLibrary() {
+		shelf.add("태백산맥1");
+		shelf.add("태백산맥2");
+		shelf.add("태백산맥3");
+		shelf.add("태백산맥4");
+		shelf.add("태백산맥5");
+	}
+}
+
+public class LibraryMain {
+
+	public static void main(String[] args) {
+
+
+	}
+
+}

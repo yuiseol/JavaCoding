@@ -1,0 +1,10 @@
+package interfacePolymorphism.web.userInfo;
+
+public class UserInfoClient {
+
+	public static void main(String[] args) {
+	
+		FileInputStream fis = new FileInputStream("db.properties";)
+	}
+
+}

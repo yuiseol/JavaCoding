@@ -1,0 +1,6 @@
+package decoratorPattern;
+
+public class Coffee {
+
+	public abstract void brewing();
+}

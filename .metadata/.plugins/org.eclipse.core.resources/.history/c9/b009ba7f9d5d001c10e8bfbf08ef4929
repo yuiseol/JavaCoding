@@ -1,0 +1,18 @@
+package ch16_interface;
+
+public class Player {
+	
+	private PlayerLevel level;
+
+	public PlayerLevel getLevel() {
+		return level;
+	}
+	
+	public void upgradeLevel(PlayerLevel playerLevel) {
+		playerLevel.;
+	}
+	
+	public void play(int count) {
+		level.go(count);
+	}
+}

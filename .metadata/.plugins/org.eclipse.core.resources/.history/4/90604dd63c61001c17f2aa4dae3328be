@@ -1,0 +1,23 @@
+package byteIOstream;
+
+import java.io.FileOutputStream;
+
+public class FileOutputStreamTest2 {
+
+	public static void main(String[] args) {
+
+		FileOutputStream fos = new FileOutputStream("output2.txt");
+		try(fos) {
+			
+			fos.write(65); //숫자에 해당하는 char가 쓰임
+			fos.write(66);
+			fos.write(67);
+			
+		} catch (IOException e) {
+			System.out.println(e);
+		}
+		System.out.println("end");
+		}
+	}
+
+
